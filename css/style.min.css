@@ -172,6 +172,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 500px) {
+  .header__inner {
+    min-height: 90px;
+  }
   .header__logo {
     margin-right: 15px;
   }
@@ -187,12 +190,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 330px) {
+  .header {
+    padding-top: 10px;
+  }
   .menu__list {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
   }
   .menu__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .menu__item-blue {
     margin-bottom: 15px;
   }
 }

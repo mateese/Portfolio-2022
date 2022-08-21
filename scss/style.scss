@@ -1,0 +1,85 @@
+@import "_imports";
+
+//======== default settings ==========
+html, body {
+    height: 100%;
+}
+body {
+    background: rgb(37,37,37); 
+    background: -moz-linear-gradient(-45deg, rgba(37,37,37,1) 0%, rgba(58,58,58,1) 100%); 
+    background: -webkit-linear-gradient(-45deg, rgba(37,37,37,1) 0%,rgba(58,58,58,1) 100%); 
+    background: linear-gradient(135deg, rgba(37,37,37,1) 0%,rgba(58,58,58,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#3a3a3a',GradientType=1 );
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-weight: 400;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1145px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.main {
+    flex: 1 1 auto;
+}
+
+//======== section (developer) =========
+.developer {
+    // padding: 70px 0px 140px 0px;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0px 30px 0px;
+        
+        max-width: 700px;
+        margin: 0px auto;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: calc(44 / 32 * 100%);
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        line-height: calc(25 / 18 * 100%);
+        color: #FFFFFF;
+        text-align-last: left;
+        margin-bottom: 18px;
+    }
+
+    &__switch {
+        text-align-last: left;
+        margin-bottom: 25px;
+    }
+
+    &__image {
+        text-align: center;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.switch {
+
+    &__inner {
+        display: flex;
+    }
+
+    &__text {
+        margin-right: 35px;
+    }
+
+    &__radio {
+    }
+}

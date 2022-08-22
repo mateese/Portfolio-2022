@@ -99,6 +99,26 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+.icons__footer {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.icons__footer-blue:hover {
+  color: #0FA5FA;
+  transition: all 0.3s ease 0s;
+}
+
+.icons__footer-black:hover {
+  color: #000000;
+  transition: all 0.3s ease 0s;
+}
+
+.icons__footer-pink:hover {
+  color: #aa06b6;
+  transition: all 0.3s ease 0s;
+}
+
 @media (max-width: 680px) {
   .footer__link + .footer__link {
     margin-left: 50px;

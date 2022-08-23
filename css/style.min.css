@@ -486,11 +486,11 @@ body {
   .tecnologys__row {
     display: flex;
     flex-direction: column;
-    margin: 0px auto;
   }
   .tecnologys__wrapper {
-    max-width: 100%;
+    max-width: 335px;
     height: 300px;
+    margin: 0px auto;
   }
   .tecnologys__column:not(:last-child) {
     margin-bottom: 25px;
@@ -580,11 +580,11 @@ body {
   transform: rotate(45deg);
 }
 
-.about-block__item-1 {
+.about-block__item {
   padding: 0px;
 }
 
-.about-block__item-1:not(:last-child) {
+.about-block__item:not(:last-child) {
   margin-bottom: 0px;
 }
 
@@ -642,7 +642,7 @@ body {
   }
 }
 @media (min-width: 799px) {
-  .about-block__item-1 {
+  .about-block__item {
     background-color: rgba(16, 165, 252, 0);
     padding: 10px;
   }

@@ -548,7 +548,12 @@ body {
 .about__image {
   flex: 1 1 30%;
 }
-.about__paragraph._init .about-block__title::before .about__paragraph._init .about-block__title::after {
+.about__paragraph._init .about-block__title {
+  cursor: pointer;
+}
+
+.about__paragraph._init .about-block__title::before,
+.about__paragraph._init .about-block__title::after {
   content: "";
   width: 20px;
   height: 3px;
@@ -591,6 +596,7 @@ body {
 
 .about-block__text {
   margin-bottom: 15px;
+  padding: 0px 10px 10px;
 }
 
 @media (max-width: 1100px) {

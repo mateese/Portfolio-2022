@@ -568,8 +568,16 @@ body {
   transform: rotate(-90deg);
 }
 
-.about__paragraph._init .about-block__title._active::after {
+.about__paragraph._init .about-block__title::before {
   transform: rotate(0deg);
+}
+
+.about__paragraph._init .about-block__title._active::after {
+  transform: rotate(-45deg);
+}
+
+.about__paragraph._init .about-block__title._active::before {
+  transform: rotate(45deg);
 }
 
 .about-block__item-1 {
@@ -581,6 +589,7 @@ body {
 }
 
 .about-block__title {
+  position: relative;
   font-weight: 400;
   font-size: 20px;
   line-height: 130%;
